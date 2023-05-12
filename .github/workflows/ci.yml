@@ -1,13 +1,14 @@
 name: CI Shared Workflow
 
 on: workflow_call
-        
+
+permissions: read-all
+
 jobs:
 
   ci:
     name: Continous Integration
     runs-on: ubuntu-latest
-    permissions: read-all
 
     steps:
 
