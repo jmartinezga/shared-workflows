@@ -4,6 +4,10 @@ on: workflow_call
 
 permissions: read-all
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
 
   ci:
